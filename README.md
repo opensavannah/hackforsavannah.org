@@ -1,6 +1,6 @@
 hackforsavannah.org - event landing page w/ eventbrite integration
 =================
-** NOTE: All members of the Open Savannah GH org. have direct edit privileges. It's recommended that you first fork your own copy of this repo, however, make your changes, then submit a PR to ensure nothing gets out of whack with the YAML data files.**
+**NOTE: All members of the Open Savannah GH org. have direct edit privileges. It's recommended that you first fork your own copy of this repo, however, make your changes, then submit a PR to ensure nothing gets out of whack with the YAML data files.**
 
 ### Making content updates
 
