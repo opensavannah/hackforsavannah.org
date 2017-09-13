@@ -1,0 +1,32 @@
+<!-- Conference Sponsors -->
+
+<section id="sponsors" class="section-padding">
+  <div class="container">
+
+    <div class="row">
+      <!-- Heading -->
+      <div class="col-md-12">
+        <div class="heading-sec">
+          <div class="section-header text-center">
+            <h2>Our Sponsors</h2>
+            <p>About Our Sponsors</p>
+          </div>
+        </div>
+      </div>
+      <!-- /Heading -->
+
+      <div id="sponsors_slider" class="owl-carousel">
+        {% for sponsor in site.data.sponsors %}
+        <div class="item">
+          <div class="vertical_align_md">
+            <a href="{{ sponsor.website }}">
+              <img src="{{ sponsor.logo }}" alt="{{ sponsor.name }}">
+            </a>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+
+  </div>
+</section>

@@ -1,0 +1,34 @@
+<!-- Hackathon Myths -->
+
+<section class="about_style3 section-padding">
+  <div class="container">
+
+    <div class="row">
+      <!-- Heading -->
+      <div class="col-md-12">
+        <div class="heading-sec">
+          <div class="section-header text-center">
+            <h2>Hackathon Myths</h2>
+
+          </div>
+        </div>
+      </div>
+      <!-- /Heading -->
+    </div>
+
+    <div class="row">
+      {% for myth in site.data.hackathon-myths %}
+      <div class="col-md-6">
+        <div class="vertical_list">
+          <div class="list_icon">
+            <i class="fa fa-{{ myth.icon }}" aria-hidden="true"></i>
+          </div>
+          <h5>{{ myth.title }}</h5>
+          <p>{{ myth.description }}</p>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+
+  </div>
+</section>

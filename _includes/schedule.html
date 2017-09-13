@@ -1,0 +1,122 @@
+<!-- Conference Schedule-->
+
+<section id="schedule" class="section-padding parallex-bg white_text">
+  <div class="container div_zindex">
+
+    <div class="row">
+      <!-- Heading -->
+      <div class="col-md-12">
+        <div class="heading-sec">
+          <div class="section-header text-center">
+            <h2>Hackathon Schedule</h2>
+          </div>
+        </div>
+      </div>
+      <!-- /Heading -->
+
+      <div class="col-md-12">
+        <div class="row">
+
+          <div class="col-md-12 text-right">
+            <a href="https://s3.amazonaws.com/cvlassets/hackforsavannah.pdf" target="_blank">
+              <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+              Download Schedule
+            </a>
+          </div>
+
+          <div class="col-sm-4 col-md-4">
+            <!-- Nav tabs -->
+            <ul class="nav-tabs" role="tablist">
+              <li role="presentation" class="active">
+                <a href="#day1" role="tab" data-toggle="tab">Day One - Sept. 22, 2017</a>
+              </li>
+              <li role="presentation">
+                <a href="#day2" role="tab" data-toggle="tab">Day Two - Sept. 23, 2017</a>
+              </li>
+              <li role="presentation">
+                <a href="#day3" role="tab" data-toggle="tab">Day Three - Sept. 24, 2017</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-sm-8 col-md-8">
+            <!-- Tab panes -->
+            <div class="tab-content">
+
+              <!-- Day 1 Schedule -->
+              <div role="tabpanel" class="tab-pane active" id="day1">
+                {% for schedule in site.data.schedule-day-one %}
+                <div class="schedule_wrap">
+                  <p class="schedule_time">{{ schedule.time }}</p>
+
+                  <div class="schedule_speaker_info">
+                    {% if schedule.speaker_image %}
+                    <img src="{{ schedule.speaker_image }}" alt="{{ schedule.speaker_name }}"> {% endif %} {% if schedule.speaker_name
+                    %}
+                    <p>{{ schedule.speaker_name }}</p>
+                    {% endif %}
+                  </div>
+
+                  <div class="schedule_info">
+                    <h4>{{ schedule.title }}</h4>
+                    <p>{{ schedule.description }}</p>
+                  </div>
+                </div>
+                {% endfor %}
+              </div>
+
+              <!-- Day 2 Schedule -->
+              <div role="tabpanel" class="tab-pane" id="day2">
+                {% for schedule in site.data.schedule-day-two %}
+                <div class="schedule_wrap">
+                  <p class="schedule_time">{{ schedule.time }}</p>
+
+                  <div class="schedule_speaker_info">
+                    {% if schedule.speaker_image %}
+                    <img src="{{ schedule.speaker_image }}" alt="{{ schedule.speaker_name }}"> {% endif %} {% if schedule.speaker_name
+                    %}
+                    <p>{{ schedule.speaker_name }}</p>
+                    {% endif %}
+                  </div>
+
+                  <div class="schedule_info">
+                    <h4>{{ schedule.title }}</h4>
+                    <p>{{ schedule.description }}</p>
+                  </div>
+                </div>
+                {% endfor %}
+              </div>
+
+              <!-- Day 3 Schedule -->
+              <div role="tabpanel" class="tab-pane" id="day3">
+                {% for schedule in site.data.schedule-day-three %}
+                <div class="schedule_wrap">
+                  <p class="schedule_time">{{ schedule.time }}</p>
+
+                  <div class="schedule_speaker_info">
+                    {% if schedule.speaker_image %}
+                    <img src="{{ schedule.speaker_image }}" alt="{{ schedule.speaker_name }}"> {% endif %} {% if schedule.speaker_name
+                    %}
+                    <p>{{ schedule.speaker_name }}</p>
+                    {% endif %}
+                  </div>
+
+                  <div class="schedule_info">
+                    <h4>{{ schedule.title }}</h4>
+                    <p>{{ schedule.description }}</p>
+                  </div>
+                </div>
+                {% endfor %}
+
+              </div>
+            </div>
+          </div>
+        </div><!-- /Row -->
+      </div><!-- /col-md-12 -->
+
+    </div><!-- /Row -->
+
+  </div><!-- /Container -->
+
+  <div class="dark-layer"></div>
+</section>

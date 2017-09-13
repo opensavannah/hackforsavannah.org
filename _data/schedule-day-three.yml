@@ -1,0 +1,36 @@
+- time: 09:00 <span>am</span>
+  title: Rehearse, Review Before Pitch Session
+  description: >-
+    Teams will be expected to begin rehearsing their 4-6 min. pitches are rehearsed, proposals reviewed by
+    mentors and timing is perfected. Pitch decks, proposal document and any other requested material (prototypes)
+    should be emailed to judging@hackforsavannah.org no later than noon.
+  speaker_name: Three-Hour Warning
+
+- time: Noon
+  title: Lunch
+  description: >-
+    Lunch is served before teams after project materials submitted and just before teams deliver pitches
+
+- time: 12:45 <span>pm</span>
+  title: Pitches Start
+  description: >-
+    Pitches delivered in alphabetical order based on team name assigned at beginnning of weekend.
+    Pitches should be no longer than 4-6 min. per team in length. Followed by 3-4 min. of questions by
+    judges' panel.
+  speaker_name: Pitches
+
+- time: 2:00<span>pm</span>
+  title: Judges Deliberate
+  description: >-
+    Judges gather to score all project deliverables sent electronically in tandem with pitches.
+    The top three pitches/proposals will be assessed independently, and awards given to top three (3)
+    scoring teams based upon rubric criteria provided to teams at start of weekend. A separate winner will be
+    selected for best working prototype.
+  speaker_name: Judging
+
+- time: 2:45<span>pm</span>
+  title: Awards Ceremony
+  description: >-
+    Winners of hackathon announced, verbal feedback provided by judges on why the winning teams succeeded
+    and how projects could be improved upon.
+  speaker_name: Awards

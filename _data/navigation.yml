@@ -1,0 +1,12 @@
+- name: Home
+  link: '#home'
+- name: About
+  link: '#about'
+- name: Schedule
+  link: '#schedule'
+- name: Judges
+  link: '#judges'
+- name: FAQ
+  link: '#faq'
+- name: Sponsors
+  link: '#sponsors'

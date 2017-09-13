@@ -1,0 +1,18 @@
+# Site settings
+title:            Hack for Savannah - A National Day of Civic Hacking Event
+description:      An Open Savannah event with support from SEDA to mark Code for America's annual National Day of Civic Hacking
+url:              http://hackforsavannah.org/
+meetup:           http://meetup.com/opensavannah
+facebook:         http://facebook.com/opensavannah
+twitter:          http://twitter.com/open_savannah
+instagram:        http://instagram.com/opensavannah
+github:           http://github.com/opensavannah
+email:            yall@opensavannah.org
+mailto:           mailto:yall@opensavannah.org
+
+# Build settings
+markdown: kramdown
+
+sass:
+  style: compressed
+  sass_dir: assets/css

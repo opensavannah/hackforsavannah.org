@@ -1,0 +1,60 @@
+---
+layout: default
+---
+
+{% include base_path %}
+
+<section class="inner-pages text-center">
+  <div class="container">
+    <div class="white_text div_zindex">
+      <h1 class="page_title">Event Industry Latest Updates</h1>
+    </div>
+  </div>
+  <div class="dark-layer"></div>
+</section>
+
+<section class="our_articles single_article">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+
+        <article class="blog_wrap view_one">
+          <div class="blog_meta">
+            <p>Posted on <strong>{{ page.date | date: '%d %b %Y' }}</strong></p>
+          </div>
+
+          <h3>{{ page.title }}</h3>
+
+          <div class="blog_img margin-btm-20">
+            <img src="{{ page.cover }}" alt="{{ page.title }}">
+          </div>
+
+          {{ content }}
+
+          <div class="article_tag gray-bg">
+            <div class="row">
+              <div class="col-md-12 col-sm-12">
+                <div class="share_article">
+                  <h6>Share:</h6>
+                  <ul>
+                    <li><a href="https://facebook.com/sharer.php?u={{ base_path }}{{ page.url }}"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ base_path }}{{ page.url }}"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.linkedin.com/shareArticle?mini=true&url={{ base_path }}{{ page.url }}&title={{ page.title }}"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                    <li><a href="https://plus.google.com/share?url={{ base_path }}{{ page.url }}"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </article>
+
+        <!--Comments-Form-->
+        <section class='disqus'>
+          {% include disqus.html %}
+        </section>
+      </div>
+
+    </div>
+  </div>
+</section>

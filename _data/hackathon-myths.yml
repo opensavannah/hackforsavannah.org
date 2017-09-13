@@ -1,0 +1,32 @@
+- title: It's all about the product
+  icon: bullhorn
+  description: >-
+    When the term hackathon comes to mind, we tend to think solely of which team
+    has the strongest <em>deliverable</em>. At their core, hackathons are about devising a feasible,
+    effective, smart solution that involves far more than programming neat software.
+    They require a strong pitch, a clear competitive advantage, and an in-depth analysis of the solution.
+
+- title: Everyone who attends is a 'computer' person
+  icon: registered
+  description: >-
+    This myth couldn't be further from the truth, and it creates a dangerous self-fulfilling prophecy
+    when people opt not to participate simply because they don't <em>know how to CD into the root directory
+    and CHMOD the file permissions to 755</em>. For true success, especially in a <em>civic</em> hackathon,
+    a diversity of skillsets will be needed. Just because you can't write a complex JavaScript app using
+    Angular 2 doesn't mean you can't contribute to the team's project meaningfully.
+
+- title: It's all about winning
+  icon: bolt
+  description: >-
+    Hackathons are ideal learning environments, testing your critical thinking skills and ability to solve
+    problems creatively under tight deadlines. And if you haven't put much critical thought into <em>why</em>
+    you would build something a certain way, it doesn't matter how sleek it is to use or what fancy new
+    JavaScript framework it uses.
+
+- title: You have to pull an all-nighter and/or stay up overnight.
+  icon: street-view
+  description: >-
+    While event volunteers will be at Bull Street Labs to assist teams in shifts throughout the entirety
+    of the night, teams by no means <em>have</em> to stay at BSL or go without sleep to finish in time.
+    Sleep is important. It makes the brain function quicker. Go home and rest Saturday night if you can.
+    At the very least, get a quick shut-eye on a couch at BSL, if nothing else!

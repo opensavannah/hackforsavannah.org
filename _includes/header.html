@@ -1,0 +1,38 @@
+<!-- Header -->
+
+<header class="nav-stacked" data-spy="affix" data-offset-top="15">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-3 col-md-2">
+        <div class="logo">
+          <a href="{{ site.baseurl }}/">
+            <img class="logo-img" src="http://cvlassets.s3.amazonaws.com/Slice%204-4.png" alt="{{ site.title }}">
+          </a>
+        </div>
+      </div>
+
+      <div class="col-sm-9 col-md-10">
+        <!-- Navigation -->
+        <nav class="navbar navbar-default">
+          <div class="navbar-header">
+            <button id="menu_slide" data-target="#navigation" aria-expanded="false" data-toggle="collapse" class="navbar-toggle collapsed"
+              type="button">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse" id="navigation">
+            <ul class="nav navbar-nav">
+              {% for link in site.data.navigation %}
+              <li {% if forloop.first %} class="active" {% endif %}><a class="js-target-scroll" href="{{ site.baseurl }}/{{ link.link }}">{{ link.name }}</a></li>
+              {% endfor %}
+            </ul>
+          </div>
+        </nav>
+        <!-- /Navigation -->
+      </div>
+    </div>
+  </div>
+</header>

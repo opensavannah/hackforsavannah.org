@@ -1,0 +1,33 @@
+- time: 08:30 <span>am</span>
+  title: Breakfast Served
+  description: >-
+    Room B of Bull Street Labs. Team mentors will also arrive at this time to assist teams in
+    staying within scope and timeframe of the event, as well as to help guide teams in any
+    technology they are using.
+  speaker_name: Breakfast
+
+- time: 9:00 <span>am</span>
+  title: Projects Begin
+  description: >-
+    Teams begin work on projects if they haven't already. Mentors help guide initial phases.
+
+- time: 12:00 <span>pm</span>
+  title: Lunch
+  description: Lunch served in Room B of Bull Street Labs.
+
+- time: 12:30 <span>pm</span>
+  title: Pep Talk
+  description: >-
+    Brigade members speak on what the purpose of the hackathon is, and how open government and open data
+    can play a vital role in community livelihood.
+  speaker_name: Open Savannah Core Team
+
+- time: 1:00 <span>pm</span>
+  title: Work continues
+  description: >-
+    Teams continue work on projects.
+
+- time: 7:00 <span>pm</span>
+  title: Dinner
+  description: >-
+    Dinner catered in BSL Auditorium.

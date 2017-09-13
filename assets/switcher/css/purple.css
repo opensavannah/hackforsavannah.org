@@ -1,0 +1,74 @@
+
+a, a:hover, a:focus, 
+.logo h3 a span, 
+.logo h3 span, 
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover, 
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover, 
+.owl-buttons, 
+.speakers_info h5, 
+.speakers_follow_us ul li a:hover,
+#testimonial_slider .item h5, 
+.panel-default > .panel-heading h4 a, 
+.venue_info_box a:hover, 
+.social_links li a:hover, 
+.logo h3 a span, .logo h3 span, 
+.footer_logo h3 a span, .footer_logo h3 span, 
+.blog_meta p, 
+.blog_wrap h3 a:hover, 
+.blog_categories li a:hover, .widget_post_info h6 a:hover, 
+.pagination > li > a, .pagination > li > span, 
+.blog_wrap h5 a:hover, 
+.btn-link, 
+.speakers_style2 .speakers_follow_us ul li a:hover, 
+#schedule .tab-content .nav-tabs li.active a, #schedule .tab-content .nav-tabs li:hover a  {
+  color:#6054c2;	
+  fill: #6054c2;
+}
+
+
+.btn, 
+.primary-bg, 
+.red-overlay, 
+ul.nav-tabs li.active a, 
+ul.nav-tabs li a:hover, 
+.nav-tabs li a:focus,
+.tab-content, 
+.owl-pagination .owl-page.active, 
+.back-top a, 
+label.error.wobble-error, 
+.demo_changer .demo-icon, 
+.quote_post .blog_img blockquote, 
+.pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover, 
+.share_article ul li:hover, 
+.pricing_style2 .table_head, 
+.schedule_style3 .schedule_wrap {
+  background:#6054c2;
+  fill: #6054c2;
+}
+
+
+.btn:hover, .btn:focus, 
+.btn.btn-lg:hover {
+  background-color:#36299f;
+  fill: #36299f;
+}
+
+
+.form-control:focus,
+.owl-prev, .owl-next, 
+.event_priceing:hover, 
+.venue_info_box, 
+.pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover, 
+.share_article ul li {
+  border-color:#6054c2;
+}
+
+#schedule .nav-tabs li.active::after {
+  border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #6054c2;
+}
+ul.nav-tabs li.active a, ul.nav-tabs li a:hover, .nav-tabs li a:focus {
+  background: #6054c2 none repeat scroll 0 0 !important;
+}
+label.error.wobble-error::after {
+  border-color: transparent transparent transparent #6054c2;
+}

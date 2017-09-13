@@ -1,0 +1,56 @@
+<!--Conference FAQ-->
+
+<section id="faq" class="section-padding parallex-bg white_text">
+  <div class="container">
+    <div class="div_zindex">
+      <div class="row">
+
+        <div class="col-md-12">
+          <div class="heading-sec clearfix">
+            <div class="section-header text-center">
+              <h2>Frequently Asked Questions</h2>
+              <p>Answers to questions you may still have</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-12">
+          <div class="panel-group faq_group" id="accordion" role="tablist" aria-multiselectable="true">
+
+            {% for faq in site.data.faqs %}
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="heading-{{ faq.title | slugify }}">
+                <h4 class="panel-title">
+                  <a class="{% unless forloop.first %} collapsed {% endunless %}"
+                     role="button"
+                     data-toggle="collapse"
+                     data-parent="#accordion"
+                     href="#panel-{{ faq.title | slugify }}"
+                     aria-expanded="false"
+                     aria-controls="panel-{{ faq.title | slugify }}">
+                    {{ faq.title }}
+                    <span class="faq_control"><i class="fa fa-plus-square" aria-hidden="true"></i>
+                      <i class="fa fa-minus-square" aria-hidden="true"></i>
+                    </span>
+                  </a>
+                </h4>
+              </div>
+              <div id="panel-{{ faq.title | slugify }}" class="panel-collapse collapse {% if forloop.first %} in {% endif %}" role="tabpanel" aria-labelledby="heading-{{ faq.title | slugify }}">
+                <div class="panel-body">
+                  {{ faq.description }}
+                </div>
+              </div>
+            </div>
+            {% endfor %}
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="dark-layer"></div>
+</section>
+
+<!--/Conference FAQ-->

@@ -1,0 +1,25 @@
+<!-- Blog Section -->
+
+<section id="blog" class="section-padding">
+  <div class="container">
+    <div class="row">
+      <!-- Heading -->
+      <div class="col-md-12">
+        <div class="heading-sec clearfix">
+          <div class="section-header text-center">
+            <h2>Latest News</h2>
+            <p>Event Industry Latest Updates</p>
+          </div>
+        </div>
+      </div>
+      <!-- /Heading -->
+
+      {% for post in site.posts %}
+        {% include post-card.html %}
+      {% endfor %}
+
+    </div>
+  </div>
+</section>
+
+<div class="divider double"></div>
