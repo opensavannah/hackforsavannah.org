@@ -4,7 +4,7 @@ $(function(e) {
 /*-------------------------------------------------------------------------------
 Smooth scroll to anchor
 -------------------------------------------------------------------------------*/
-		
+
 	var navbar=$('.js-navbar');
 	var navbarAffixHeight=85
 	$('.js-target-scroll').on('click', function(e) {
@@ -23,11 +23,11 @@ Smooth scroll to anchor
 	  if($('.navbar-collapse').removeClass('in')) {
 	  }
 	  });
-	  
+
 /*-------------------------------------------------------------------------------
 Background slider
 -------------------------------------------------------------------------------*/
-     
+
 	$("#slideshow").owlCarousel({
 		autoPlay : 5000,
 		stopOnHover : false,
@@ -41,7 +41,7 @@ Background slider
 /*-------------------------------------------------------------------------------
 Timer
 -------------------------------------------------------------------------------*/
- 
+
 	var austDay = new Date();
 	austDay = new Date(austDay.getFullYear() + 1, 1 - 1, 26);
 	$('#defaultCountdown').countdown({until: austDay});
@@ -49,20 +49,20 @@ Timer
 /*------------------------------------------------------------------
 Countdown
 -------------------------------------------------------------------*/
- 
-	var endDate = "sept 22, 2017";
+
+	var endDate = "oct 22, 2017";
 	$('.countdown.styled').countdown({
 	  date: endDate,
 	  render: function(data) {
 		$(this.el).html("<div class='countdown-amount'>" + this.leadingZeros(data.days, 2) + " <span class='countdown-period'>Days</span></div><div class='countdown-amount'>" + this.leadingZeros(data.hours, 2) + " <span class='countdown-period'>Hours</span></div><div class='countdown-amount'>" + this.leadingZeros(data.min, 2) + " <span class='countdown-period'>Minutes</span></div><div class='countdown-amount'>" + this.leadingZeros(data.sec, 2) + " <span class='countdown-period'>Seconds</span></div>");
 	  }
 	});
- 
+
 
 /*------------------------------------------------------------------
 	Gallery slider
 -------------------------------------------------------------------*/
- 
+
    var carousel = $("#gallery_slider");
    carousel.owlCarousel({
    items : 3,
@@ -91,22 +91,22 @@ Countdown
    this
    .$owlItems
    .eq(this.currentItem + 1)
-   .addClass('active')    
-	} 
+   .addClass('active')
+	}
 	});
- 
+
  /*------------------------------------------------------------------
 	Gallery slider-Style 2
 	-------------------------------------------------------------------*/
 	$(document).ready(function(){
 		$("a[rel^='prettyPhoto']").prettyPhoto();
 	  });
-	
-	
+
+
 /*------------------------------------------------------------------
 	Testimonial
 -------------------------------------------------------------------*/
-    
+
 	var owl = $("#testimonial_slider");
 	owl.owlCarousel({
 	  itemsCustom : [
@@ -119,11 +119,11 @@ Countdown
 	  navigation : false,
 	  autoPlay  : 3000
 	});
- 
+
 /*------------------------------------------------------------------
 Sponsors Slider
 -------------------------------------------------------------------*/
-    
+
 	var owl = $("#sponsors_slider");
 	owl.owlCarousel({
 	  itemsCustom : [
@@ -137,13 +137,13 @@ Sponsors Slider
 	  navigation : false,
 	  autoPlay  : 3000
 	});
- 
+
 /*------------------------------------------------------------------
 	back to top
 -------------------------------------------------------------------*/
  var top = $('#back-top');
 	top.hide();
-	 
+
 		$(window).scroll(function () {
 			if ($(this).scrollTop() > 100) {
 				top.fadeIn();
@@ -157,8 +157,8 @@ Sponsors Slider
 			}, 800);
 			return false;
 		});
-	 
- 
+
+
 /*-------------------------------------------------------------------------------
   Google map Style 1
 	-------------------------------------------------------------------------------*/
@@ -193,8 +193,8 @@ Sponsors Slider
 			}
 		});
 	}
-	
-	
+
+
 /*-------------------------------------------------------------------------------
   Google map Style 2
 	-------------------------------------------------------------------------------*/
@@ -229,8 +229,8 @@ Sponsors Slider
 			}
 		});
 	}
-	
-	
+
+
 /*-------------------------------------------------------------------------------
   Google map Style 3
 	-------------------------------------------------------------------------------*/
@@ -265,12 +265,12 @@ Sponsors Slider
 			}
 		});
 	}
-	
-	
+
+
 /*-------------------------------------------------------------------------------
 Ajax Form
 -------------------------------------------------------------------------------*/
- 		
+
 	if ($('#js-ajax-form').length) {
 		$('#js-ajax-form').each(function(){
 			$(this).validate({
@@ -291,13 +291,13 @@ Ajax Form
 			});
 		});
 	}
- 	
+
 });
 
 /*-------------------------------------------------------------------------------
   Paypal Form
 	-------------------------------------------------------------------------------*/
-$(function(e){	
+$(function(e){
 	if ($('#paypal-form').length) {
 		$('#paypal-form').each(function(){
 			$(this).validate({
