@@ -708,7 +708,7 @@ ul.nav.navbar-nav li.active .dropdown-menu a:hover, .dropdown-menu a:hover {
   min-width: 100%;
   position: absolute;
   top: 0;
-  transform: translate(-50%, 0px);
+  transform: translate(-10%, 0px);
 }
 audio, canvas, progress, video {
   display: inline-block;
