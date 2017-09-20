@@ -6,11 +6,11 @@
   logo: https://s3.amazonaws.com/lightning-carlvlewis/atdc-logo.png
   website: http://atdc.org
 
-- name: Code Base
+- name: Codebase
   logo: https://s3.amazonaws.com/cvlassets/Screen%20Shot%202017-09-01%20at%206.24.35%20PM.png
   website: http://codebasesav.com
 
-- name: ak.Works
+- name: Oak.Works
   logo: http://oak.works/img/logos/oakworks.svg
   website: http://oak.works
 
@@ -18,11 +18,7 @@
   logo: https://s3.amazonaws.com/cvlassets/creative-coast_1.jpg
   website: http://creativecoast.organization
 
-- name: Live Oak Public Libraries
-  logo: https://s3.amazonaws.com/cvlassets/lopl.jpg
-  website: http://liveoakpl.org
-
-- name: Geothink
+- name: Geothinq
   logo: https://s3.amazonaws.com/cvlassets/tFT3yPC7_400x400.jpg
   website: http://geothink.ca/
 
