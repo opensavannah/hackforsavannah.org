@@ -1,10 +1,10 @@
-- name: Coastal Georgia Regional Indicators Coalition
+- name: Savannah Economic Development Authority
   logo: https://cvlassets.s3.amazonaws.com/sedalogo.png
   website: http://seda.org
-
-- name: Advanced Technology Development Center.
-  logo: https://s3.amazonaws.com/lightning-carlvlewis/atdc-logo.png
-  website: http://atdc.org
+  
+- name: Bull Street Labs
+  logo: https://cl.ly/410e410q3Y20
+  website: http://bullstreetlabs.com
 
 - name: Codebase
   logo: https://s3.amazonaws.com/cvlassets/Screen%20Shot%202017-09-01%20at%206.24.35%20PM.png
@@ -22,10 +22,14 @@
   logo: https://s3.amazonaws.com/cvlassets/tFT3yPC7_400x400.jpg
   website: http://geothink.ca/
 
-- name: Savannah, GA
+- name: City of Savannah
   logo: https://s3.amazonaws.com/cvlassets/city-of-savannah-1%202.jpg
   website: http://savannahga.gov
 
 - name: Enmarket
   logo: https://s3.amazonaws.com/cvlassets/header_logo.png
   website: http://enmarkstations.com/
+  
+  - name: Advanced Technology Development Center.
+  logo: https://s3.amazonaws.com/lightning-carlvlewis/atdc-logo.png
+  website: http://atdc.org
