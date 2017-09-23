@@ -1,6 +1,6 @@
 ---
 title: What is a civic hacker?
-author: Allison Carpio
+author: Carl V. Lewis
 layout: post
 permalink: /what-is-a-civic-hacker/
 cover: https://cvlassets.s3.amazonaws.com/0817-open_savannah_sav_maps-13.jpg
