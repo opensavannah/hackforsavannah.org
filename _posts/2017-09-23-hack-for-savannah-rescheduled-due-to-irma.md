@@ -7,11 +7,13 @@ cover: 'https://i.ytimg.com/vi/94Voxagz7Y0/maxresdefault.jpg'
 ---
 
 
-### [f](http://https://groups.google.com/forum/#!forum/codeforsac){: .cc-active}ds
+### New dates for event Oct. 20-22, 2017
 
-Check out fsd Google Group site to see what we’re up to.
+We had everything lined up and ready to go for Hack for Savannah when the various spaghetti models all depicted Hurricane Irma – which was at the time the most powerful and largest hurricane ever recorded in the Atlantic – making initial landfall squarely in the center of Savannah. Luckily for Savannah, the storm didn't veer north as quickly as predicted and we mostly escaped its wrath.
 
-### [Meet Up](http://code4sac.org/events)
+our region hasn't been hammered by a major hurricane's direct impact since 1893. This has led The Weather Channel to declare Savannah as the top "U.S. City overdue for a hurricane."
+
+### Historic event
 
 Join us for one of our meetups every Wednesday at Hacker Lab.
 
