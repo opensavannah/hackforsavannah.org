@@ -7,7 +7,7 @@
     They require a strong pitch, a clear competitive advantage, and an in-depth analysis of the solution.
 
 - title: Everyone who attends is a 'computer' person
-  icon: computer
+  icon: street-view
   description: >-
     This myth couldn't be further from the truth, and it creates a dangerous self-fulfilling prophecy
     when people opt not to participate simply because they don't <em>know how to CD into the root directory
@@ -16,7 +16,7 @@
     Angular 2 doesn't mean you can't contribute to the team's project meaningfully.
 
 - title: It's all about winning
-  icon: bolt
+  icon: registered
   description: >-
     Hackathons are ideal learning environments, testing your critical thinking skills and ability to solve
     problems creatively under tight deadlines. And if you haven't put much critical thought into <em>why</em>
@@ -24,7 +24,7 @@
     JavaScript framework it uses.
 
 - title: You have to pull an all-nighter and/or stay up overnight.
-  icon: street-view
+  icon: bolt
   description: >-
     While event volunteers will be at Bull Street Labs to assist teams in shifts throughout the entirety
     of the night, teams by no means <em>have</em> to stay at BSL or go without sleep to finish in time.
