@@ -348,7 +348,7 @@ textarea {
 ---------------------------------------------------*/
 
 .dark-layer {
-	background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
+	background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
 	content: "";
 	height: 100%;
 	position: absolute;
