@@ -75,11 +75,12 @@ h1 {
 }
 h2 {
 	font-size: 54px;
-	color:#fff;
+	color:#222222;
 }
 h3 {
 	font-size: 44px;
 	font-weight:700;
+	color: #fff;
 }
 h4 {
 	font-size:36px;
