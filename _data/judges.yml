@@ -1,3 +1,22 @@
+- name: Dennis Jones
+  title: Director, Chatham Emergency Management Agency (CEMA)
+  bio: >-
+    Dennis Jones is the director of <a href="http://cema.org">CEMA</a>, the official emergency management authority for Chatham County. He has more than 28 years of emergency management experience, coordinating response and recovery efforts for hundreds of high-risk situations. In addition, he is recognized as a Nationally Certified Emergency Managemer, a Georgia Certified Emergency Manager and a Certified Professional Emergency Manager. 
+  image: http://www.chathamemergency.org/Dennis.jpg
+  facebook:
+  twitter:
+  linkedin:
+  google-plus:
+  
+- name: Chelsea Sawyer
+  title: Emergency Management Specialist in Community Outreach, Chatham Emergency Management Agency (CEMA)
+  bio: >-
+    Chelsea serves as CEMA's Community Outreach Lead, educating the public about disaster preparedness and training the agency's rescue and aid volunteer team. Although she joined CEMA only a  little more than a year ago, Chelsea has already amassed a great deal of on-the-ground experience, having helped manage communications and relief operations during both Hurricanes Matthew in 2016 and Hurrican Irma in 2017. She holds a Master's in Public Administration, and her current goals for CEMA include expanding the agency's volunteer relief team. 
+  image: https://cvlassets.s3.amazonaws.com/Screenshot-2017-09-26-16.29.03.png
+  facebook:
+  twitter:
+  linkedin:
+  google-plus:
 - name: José Mallabo
   title: Startup Catalyst Manager - Advanced Technology Development Center @ Georgia Tech
   bio: >-
@@ -66,25 +85,5 @@
   image: https://s3.amazonaws.com/cvlassets/21192897_1444476535644130_4888263646177058210_n.jpg
   facebook: https://www.facebook.com/nick.palumbo.96
   twitter: 
-  linkedin:
-  google-plus:
-  
-- name: Dennis Jones
-  title: Director, Chatham Emergency Management Agency (CEMA)
-  bio: >-
-    Dennis Jones is the executive director of <a href="http://cema.org">CEMA</a>, the official emergency management authority for Chatham County. He has more than 28 years of emergency management experience, coordinating response and recovery efforts for hundreds of high-risk situations. In addition, he is recognized as a Nationally Certified Emergency Managemer, a Georgia Certified Emergency Manager and a Certified Professional Emergency Manager. 
-  image: http://www.chathamemergency.org/Dennis.jpg
-  facebook:
-  twitter:
-  linkedin:
-  google-plus:
-  
-- name: Chelsea Sawyer
-  title: Emergency Management Specialist in Community Outreach, Chatham Emergency Management Agency (CEMA)
-  bio: >-
-    Chelsea serves as CEMA's Community Outreach Lead, educating the public about disaster preparedness and training the agency's rescue and aid volunteer team. Although she joined CEMA only a  little more than a year ago, Chelsea has already amassed a great deal of on-the-ground experience, having helped manage communications and relief operations during both Hurricanes Matthew in 2016 and Hurrican Irma in 2017. She holds a Master's in Public Administration, and her current goals for CEMA include expanding the agency's volunteer relief team. 
-  image: https://cvlassets.s3.amazonaws.com/Screenshot-2017-09-26-16.29.03.png
-  facebook:
-  twitter:
   linkedin:
   google-plus:
