@@ -1020,7 +1020,7 @@ audio, canvas, progress, video {
 }
 .sechedule_download {
 	font-size:16px;
-	color:#fff;
+	color:#fff!important;
 	font-weight:500;
 	display:inline-block;
 	margin:0 auto 10px;
