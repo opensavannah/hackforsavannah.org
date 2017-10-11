@@ -1,0 +1,62 @@
+<section id="judges" class="section-padding">
+  <div class="container">
+    <div class="row">
+
+      <!-- Heading -->
+      <div class="col-md-12">
+        <div class="heading-sec">
+          <div class="section-header text-center">
+            <h2>Judges/Panelists</h2>
+            <p>Representatives from Coastal Georgia's government agencies and entrepreneurial community.</p>
+          </div>
+        </div>
+      </div>
+      <!-- /Heading -->
+
+      {% for judge in site.data.judges %}
+      <div class="col-sm-6 col-md-6">
+        <div class="speakers_wrap">
+          <div class="our_speaker_img">
+            <img src="{{ judge.image }}" alt="{{ judge.name }}">
+          </div>
+
+          <div class="speakers_info">
+            <h5>{{ judge.name }}</h5>
+            <small>{{ judge.title }}</small>
+            <p>{{ judge.bio }}</p>
+          </div>
+
+          <div class="speakers_follow_us">
+            <ul>
+              {% if judge.facebook %}
+                <li>
+                  <a href="{{ judge.facebook }}"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                </li>
+              {% endif %}
+
+              {% if judge.twitter %}
+                <li>
+                  <a href="{{ judge.twitter }}"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                </li>
+              {% endif %}
+
+              {% if judge.linkedin %}
+                <li>
+                  <a href="{{ judge.linkedin }}"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                </li>
+              {% endif %}
+
+              {% if judge.google-plus %}
+                <li>
+                  <a href="{{ judge.google-plus }}"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a>
+                </li>
+              {% endif %}
+            </ul>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+
+    </div>
+  </div>
+</section>
