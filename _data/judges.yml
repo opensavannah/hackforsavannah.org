@@ -32,7 +32,7 @@
   title: Environmental Reporter, <em>Savannah Morning News</em>
   bio: >-
     Mary is an award-winning environmental journalist at <em>Savannah Morning News</em> and, arguably, among the most experienced and nuanced environmental reporters in the state of Georgia. She has covered issues ranging from the planned expasion of Plant Vogle, to the Palmetto Piepline, to sea-level rise in Coastal Georgia's barrier islands. Mary has also been a leading voice in the ongoing discussion of the need for more resilient coastal communities that can better withstand the effects of storm surge.  
-  image: https://cvlassets.s3.amazonaws.com/Screenshot-2017-10-16-21.12.13.png
+  image: https://cvlassets.s3.amazonaws.com/Screenshot-2017-10-16-21.12.13.jpg
   twitter: https://twitter.com/marylandersSMN
   linkedin:
   google-plus:
@@ -59,18 +59,6 @@
   twitter: https://twitter.com/josemallabo
   linkedin: https://www.linkedin.com/in/josemallabo/
   google-plus: 
-
-- name: Christopher Nichols
-  title: Lead Product Manager @ geothinQ
-  bio: >-
-    Chris leads the team for <a href="http://geothinq.com">geothinQ</a>, a Savannah-based startup that offers
-    users a web application that makes land analysis simple and visual through mapping. Prior to his time
-    working on geothinQ, he was the GIS Product Manager for Savannah-based firm Thomas and Hutton.
-  image: https://cvlassets.s3.amazonaws.com/chrisnichols.jpg
-  facebook:
-  twitter:
-  linkedin:
-  google-plus:
 
 - name: Kevin Lawver
   title: Chief Technology Officer @ Planted
