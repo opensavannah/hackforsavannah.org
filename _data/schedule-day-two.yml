@@ -3,8 +3,8 @@
   description: >-
     Room B of Bull Street Labs. Team mentors will also arrive at this time to assist teams in
     staying within scope and timeframe of the event, as well as to help guide teams in any
-    technology they are using.
-  speaker_name: Breakfast
+    technology they are using. Sausage, egg, cheese biscuits along with juices and yogurts.
+  speaker_name: Breakfast Provided by Enmarket
 
 - time: 9:00 <span>am</span>
   title: Subject Matter Keynote Jill Gambill
@@ -13,19 +13,24 @@
 
 - time: 12:00 <span>pm</span>
   title: Lunch
-  description: Lunch served in Room B of Bull Street Labs.
+  description: Lunch by Moe's served in Room B of Bull Street Labs.
 
-- time: 12:30 <span>pm</span>
-  title: Pep Talk
+- time: 12:45 <span>pm</span>
+  title: CfA Keynote Jill Bjers
   description: >-
-    Brigade members speak on what the purpose of the hackathon is, and how open government and open data
-    can play a vital role in community livelihood.
-  speaker_name: Open Savannah Core Team
+    Code for Charlotte founder Jill Bjers, who serves on CfA's National Advisory Committee, shares her experiences as a woman on the front lines of the civic technology movement.
+  speaker_name: Jill Bjers
 
 - time: 1:00 <span>pm</span>
   title: Work continues
   description: >-
     Teams continue work on projects.
+    
+- time: 4:00 <span>pm</span>
+  title: Chuck Watson brief talk
+  description: >-
+    Chuck Watson of Enki Research discusses his unique angles on resiliency.  
+    
 
 - time: 7:00 <span>pm</span>
   title: Dinner
