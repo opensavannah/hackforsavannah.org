@@ -37,16 +37,6 @@
   linkedin:
   google-plus:
   
-- name: Travis Schuff
-  title: Senior Systems Analyst, Chatham County Government
-  bio: >-
-    In his more than five years as Senior Systems Analyst for Chatham County, Travis has developed custom software systems to improve or automate government operations and erved as a technical and business consultant for several county departments to assist in discovering cost effective solutions
-  image: http://images.gotinder.com/0001unknown/640x640_pct_0_0_100_100_unknown.jpg
-  facebook:
-  twitter:
-  linkedin:
-  google-plus:
-  
 - name: José Mallabo
   title: Startup Catalyst Manager - Advanced Technology Development Center @ Georgia Tech
   bio: >-
@@ -122,6 +112,15 @@
   bio: >-
     Scott is the Webmaster for Chatham County Government, a position he's held now during both Hurricanes Matthew and Irma. He also serves on CEMA's External Affairs Disaster team, and has assisted in aid and recovery efforts after the storms. He holds a degree in computer science, and has worked in IT for more than a decade.
   image: https://media.licdn.com/media/AAEAAQAAAAAAAAomAAAAJGZkY2ZjNjM1LWEyODEtNDhhZi1iMTFmLTUwOWYwOTE3MGVmMA.jpg
+  facebook:
+  twitter:
+  linkedin:
+  google-plus:
+- name: Travis Schuff
+  title: Senior Systems Analyst, Chatham County Government
+  bio: >-
+    In his more than five years as Senior Systems Analyst for Chatham County, Travis has developed custom software systems to improve or automate government operations and erved as a technical and business consultant for several county departments to assist in discovering cost effective solutions
+  image: http://images.gotinder.com/0001unknown/640x640_pct_0_0_100_100_unknown.jpg
   facebook:
   twitter:
   linkedin:
