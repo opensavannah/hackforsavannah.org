@@ -8,10 +8,12 @@
   speaker_image: https://s3-media1.fl.yelpcdn.com/bphoto/UIQX8NI0nCsOwZa0vpuX6A/ls.jpg
 
 - time: 9:00 <span>am</span>
-  title: Subject Matter Keynote Jill Gambill
+  title: Subject Matter Keynote by Jill Gambill
   description: >-
     Jill Gambill, a leading academic on Coastal Community Resiliency at UGA, discusses some of the primary issues at hand with sea-level rise and more.
-
+  speaker_name: Jill Gambill
+  speaker_image: https://cvlassets.s3.amazonaws.com/unnamed.jpg
+  
 - time: 12:00 <span>pm</span>
   title: Lunch
   description: Lunch by Moe's served in Room B of Bull Street Labs.
@@ -21,6 +23,7 @@
   description: >-
     Code for Charlotte founder Jill Bjers, who serves on CfA's National Advisory Committee, shares her experiences as a woman on the front lines of the civic technology movement.
   speaker_name: Jill Bjers
+  speaker_image: https://cvlassets.s3.amazonaws.com/IMG_0347.JPG
 
 - time: 2:00 <span>pm</span>
   title: Work continues
